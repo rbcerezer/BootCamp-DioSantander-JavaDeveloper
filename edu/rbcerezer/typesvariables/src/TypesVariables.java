@@ -12,8 +12,10 @@ public class TypesVariables {
         number = 10;
         System.out.println(number);
 
-        final VALOR_DE_PI = 3.14;
+        final double VALOR_DE_PI = 3.14;
+        //VALOR_DE_PI = 15; não se consegue alterar o valor.
         //para constantes preceder com "final" e nome em CAIXA ALTA
+        System.out.println (VALOR_DE_PI);
 
         String name = "Rafael Cerezer";
         //modo de tipo de texto
